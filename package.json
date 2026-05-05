@@ -1,0 +1,30 @@
+{
+  "name": "ecole",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Kintoraa/exoCI#readme",
+  "bugs": {
+    "url": "https://github.com/Kintoraa/exoCI/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kintoraa/exoCI.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "node index.js",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "jest": "^30.3.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.3.0",
+    "globals": "^17.6.0"
+  }
+}
